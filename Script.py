@@ -192,10 +192,9 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b></b> <code><a href="https://t.me/Unknown_Cinema">{file_caption}</a>
+<b></b> <code><a href="https://t.me/Unknown_Cinema">{file_caption}</a></code></b>
 @Unknown_Cinema
 @Unknown_Request
-</code><b>
 </b>"""
     
     EX_FEATURE_TXT = """Yᴏᴜ Cᴀɴ Tʀʏ Aʟʟ Tʜᴇsᴇ Cᴏᴏʟ Fᴇᴀᴛᴜʀᴇs Fʀᴏᴍ Bᴇʟᴏᴡ Oᴘᴛɪᴏɴ..!!!"""
