@@ -192,7 +192,8 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
-<b></b> <code><a href="https://t.me/Unknown_Cinema">{file_caption}</a></code></b>
+<b><a href="https://t.me/Unknown_Cinema">{file_caption}</a>
+
 @Unknown_Cinema
 @Unknown_Request
 </b>"""
