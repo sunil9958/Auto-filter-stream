@@ -1395,8 +1395,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Tᴇʟᴇɢʀᴀᴘʜ ', callback_data='tele'),       
             InlineKeyboardButton('Sᴛɪᴄᴋᴇʀ Iᴅ', callback_data='sticker')
-        ],[
-            InlineKeyboardButton('Kᴀɴɢ', callback_data='kang'), 
+        ],[            
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='extra')
         ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1425,22 +1424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-       ) 
-    elif query.data == "kang":
-            buttons = [[
-                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data='Ex_Feature')                 
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(buttons)
-            await query.message.edit_text(
-                text=script.KANG_TXT, 
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )  
+       )     
     elif query.data == "admin":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='extra')
