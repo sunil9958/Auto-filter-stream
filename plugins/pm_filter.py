@@ -247,7 +247,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔", url=f"https://t.me/+CRxXz6AAWTQ4ZWFl")
+        InlineKeyboardButton("🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔", url=f"https://t.me/+RK-uQG5u-4RhMzE1")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -1698,7 +1698,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔", url=f"https://t.me/+CRxXz6AAWTQ4ZWFl")
+        InlineKeyboardButton("🤔 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 🤔", url=f"https://t.me/+RK-uQG5u-4RhMzE1")
     ])
 
     if offset != "":
