@@ -24,9 +24,12 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                       
-                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/Unknown_Cinema"), 
-                    InlineKeyboardButton('Rᴜʟᴇs', url="https://telegra.ph/How-to-get-movies--series-from-Bot-10-14-2")
-                ]]
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/SvFilmX_Update"), 
+                    InlineKeyboardButton('Rᴜʟᴇs', url="https://graph.org/How-to-get-movies--series-from-Bot-04-01")
+                ],[                                       
+                    InlineKeyboardButton('Channel 1 ', url="https://t.me/SvFilmsX_Official"), 
+                    InlineKeyboardButton('CHannel 2', url="https://t.me/SvFilmsX_Adultzone")
+                  ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
         d = await message.reply_photo(
@@ -101,7 +104,7 @@ async def start(client, message):
                     InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
 
                 ],[                                        
-                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/Unknown_Support_Bot")                            
+                    InlineKeyboardButton('Aɴʏ Qᴜᴇʀʏ', url="t.me/SvFilmxhelpbot")                            
                 ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
