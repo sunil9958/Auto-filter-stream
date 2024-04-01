@@ -26,7 +26,7 @@ async def start(client, message):
                 ],[                                       
                     InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url="https://t.me/SvFilmX_Update"), 
                     InlineKeyboardButton('Rᴜʟᴇs', url="https://graph.org/How-to-get-movies--series-from-Bot-04-01")
-                ],[                                       
+        ][                                       
                     InlineKeyboardButton('Channel 1 ', url="https://t.me/SvFilmsX_Official"), 
                     InlineKeyboardButton('CHannel 2', url="https://t.me/SvFilmsX_Adultzone")
                   ]]
