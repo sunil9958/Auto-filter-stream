@@ -48,9 +48,9 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-RD_RULES = environ.get('RD_RULES', "https://t.me/c/1845700490/3")
-CONTACT = environ.get('CONTACT', "https://t.me/c/1845700490/3")
-STRM_BOT = environ.get('STRM_BOT', "https://t.me/c/1845700490/3")
+RD_RULES = environ.get('RD_RULES', "https://t.me/SvFilmsX_Official")
+CONTACT = environ.get('CONTACT', "https://t.me/SvFilmsX_Official")
+STRM_BOT = environ.get('STRM_BOT', "https://t.me/SvFilmsX_Official")
 
 IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/c/1845700490/3")
@@ -63,8 +63,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+GOFte-Rz2tcxODg1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+mCMdCb_ymAowZmNl')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+YLFPohk9DQQ3YTE1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+30dtX4ZPo405ZWNl')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DQ_The_File_Donor_Support')
