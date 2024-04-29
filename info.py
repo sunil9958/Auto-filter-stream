@@ -52,7 +52,7 @@ RD_RULES = environ.get('RD_RULES', "https://t.me/SvFilmsX_Official")
 CONTACT = environ.get('CONTACT', "https://t.me/SvFilmsX_Official")
 STRM_BOT = environ.get('STRM_BOT', "https://t.me/SvFilmsX_Official")
 
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), True)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/+RK-uQG5u-4RhMzE1")
 VERIFY2_URL = environ.get('VERIFY2_URL', "moneykamalo.com")
 VERIFY2_API = environ.get('VERIFY2_API', "53362733be35ea8cfba46e2866d29200e40d9b92")
