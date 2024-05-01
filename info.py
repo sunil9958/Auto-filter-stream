@@ -101,7 +101,7 @@ SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 WORKERS = int(environ.get('WORKERS', '4'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
 MULTI_CLIENT = False
-name = str(environ.get('name', 'file-store-stream-url-shortner'))
+name = str(environ.get('name', 'auto-filter-stream.sparkling-neilla'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
     ON_HEROKU = True
@@ -111,9 +111,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://file-store-stream-url-shortner-b2e830663a34.herokuapp.com/".format(FQDN)
+    URL = "auto-filter-stream.sparkling-neilla.koyeb.app".format(FQDN)
 else:
-    URL = "https://file-store-stream-url-shortner-b2e830663a34.herokuapp.com/".format(FQDN)
+    URL = "auto-filter-stream.sparkling-neilla.koyeb.app".format(FQDN)
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
