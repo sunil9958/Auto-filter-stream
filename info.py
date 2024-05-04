@@ -111,9 +111,9 @@ else:
     ON_HEROKU = False
 HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
-    URL = "https://auto-forward-stream-26ea9e346ebf.herokuapp.com/".format(FQDN)
+    URL = "https://filter-steeam-download-a0d72ccc6937.herokuapp.com/".format(FQDN)
 else:
-    URL = "https://auto-forward-stream-26ea9e346ebf.herokuapp.com/".format(FQDN)
+    URL = "https://filter-steeam-download-a0d72ccc6937.herokuapp.com/".format(FQDN)
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
